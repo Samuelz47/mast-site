@@ -26,8 +26,9 @@
     </a>
     <nav class="nav__links" aria-label="Principal">
       <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#planos">Planos</a>
       <a href="#como-funciona">Como funciona</a>
-      <a href="#por-que">Por que a MAST</a>
       <a href="#duvidas">Dúvidas</a>
     </nav>
     <a class="btn btn--dark btn--sm" data-wa="Olá! Vim pelo site da MAST e gostaria de conversar sobre um projeto." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Fale conosco</a>
@@ -156,6 +157,107 @@
     </div>
   </section>
 
+  <!-- PROJETOS
+       Para adicionar um projeto: copie um <article class="proj"> inteiro e troque
+       a imagem (ou o mockup), a tag, o título, o texto e o data-wa do botão.
+       Para usar print real: troque o <div class="proj__shot ..."> por
+       <img class="proj__img" src="assets/projetos/nome.webp" alt="..." loading="lazy" width="640" height="400">
+       Se o projeto tiver demo online, adicione: <a class="proj__link" href="URL" target="_blank" rel="noopener">Ver ao vivo →</a> -->
+  <section class="section section--alt" id="projetos">
+    <div class="wrap">
+      <p class="eyebrow center">Projetos</p>
+      <h2 class="h2 center">Veja o tipo de solução que entregamos</h2>
+      <p class="lead center mx">Exemplos do que podemos construir para o seu negócio, adaptados à sua marca e ao seu jeito de trabalhar.</p>
+      <div class="projs">
+        <article class="proj">
+          <div class="proj__shot shot--lp" aria-hidden="true">
+            <div class="mk-bar"><i></i><i></i><i></i></div>
+            <div class="mk-lp"><b></b><s></s><s class="w60"></s><em></em></div>
+          </div>
+          <div class="proj__body">
+            <span class="tag">Landing page · Demonstrativo</span>
+            <h3>Clínica de estética</h3>
+            <p>Página de captação com agendamento direto pelo WhatsApp, depoimentos e tratamentos em destaque.</p>
+            <a class="proj__cta" data-wa="Olá! Vi o projeto de landing page para clínica no site e quero uma para o meu negócio." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero um assim →</a>
+          </div>
+        </article>
+        <article class="proj">
+          <div class="proj__shot shot--pdv" aria-hidden="true">
+            <div class="mk-bar"><i></i><i></i><i></i></div>
+            <div class="mk-pdv"><div class="mk-grid"><u></u><u></u><u></u><u></u><u></u><u></u></div><div class="mk-side"><s></s><s></s><s></s><em></em></div></div>
+          </div>
+          <div class="proj__body">
+            <span class="tag">PDV · Demonstrativo</span>
+            <h3>Frente de caixa para restaurante</h3>
+            <p>Vendas rápidas no balcão, comandas, controle de estoque e fechamento de caixa no fim do dia.</p>
+            <a class="proj__cta" data-wa="Olá! Vi o projeto de PDV no site e quero algo parecido para minha empresa." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero um assim →</a>
+          </div>
+        </article>
+        <article class="proj">
+          <div class="proj__shot shot--crm" aria-hidden="true">
+            <div class="mk-bar"><i></i><i></i><i></i></div>
+            <div class="mk-crm"><div><s></s><u></u><u></u><u></u></div><div><s></s><u></u><u></u></div><div><s></s><u></u><u></u><u></u></div></div>
+          </div>
+          <div class="proj__body">
+            <span class="tag">Sistema · Demonstrativo</span>
+            <h3>Gestão de clientes e vendas</h3>
+            <p>Funil de vendas, histórico de cada cliente e lembretes automáticos para nunca esquecer um retorno.</p>
+            <a class="proj__cta" data-wa="Olá! Vi o projeto de gestão de clientes no site e quero conversar sobre um sistema." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero um assim →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS — ajuste os preços e prazos aqui -->
+  <section class="section" id="planos">
+    <div class="wrap">
+      <p class="eyebrow center">Planos</p>
+      <h2 class="h2 center">Preço claro, sem surpresa no final</h2>
+      <p class="lead center mx">Valores de referência. Depois de entender sua necessidade, enviamos uma proposta fechada.</p>
+      <div class="plans">
+        <article class="plan">
+          <h3>Landing page</h3>
+          <p class="plan__desc">Uma página focada em transformar visitantes em clientes.</p>
+          <p class="plan__price"><small>a partir de</small> R$ 997</p>
+          <ul>
+            <li>Design com a sua marca</li>
+            <li>Botão e mensagem de WhatsApp</li>
+            <li>Rápida no celular e pronta para o Google</li>
+            <li>Pronta em até 7 dias</li>
+          </ul>
+          <a class="btn btn--ghost" data-wa="Olá! Tenho interesse no plano Landing page." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </article>
+        <article class="plan plan--hl">
+          <span class="plan__badge">Mais escolhido</span>
+          <h3>Site completo</h3>
+          <p class="plan__desc">Presença profissional para a sua empresa na internet.</p>
+          <p class="plan__price"><small>a partir de</small> R$ 1.997</p>
+          <ul>
+            <li>Até 5 páginas (início, serviços, sobre, contato…)</li>
+            <li>Integração com WhatsApp e Instagram</li>
+            <li>Hospedagem e domínio configurados</li>
+            <li>Pronto em até 15 dias</li>
+          </ul>
+          <a class="btn btn--dark" data-wa="Olá! Tenho interesse no plano Site completo." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </article>
+        <article class="plan">
+          <h3>Sistema sob medida</h3>
+          <p class="plan__desc">PDV, gestão de clientes, estoque, agenda ou automações.</p>
+          <p class="plan__price plan__price--alt">Sob consulta</p>
+          <ul>
+            <li>Levantamento do seu processo</li>
+            <li>Entregas por etapas</li>
+            <li>Treinamento da equipe</li>
+            <li>Suporte contínuo</li>
+          </ul>
+          <a class="btn btn--ghost" data-wa="Olá! Quero conversar sobre um sistema sob medida." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Pedir proposta</a>
+        </article>
+      </div>
+      <p class="plans__note">Parcelamos no cartão. Planos de manutenção e suporte mensais disponíveis.</p>
+    </div>
+  </section>
+
   <!-- COMO FUNCIONA -->
   <section class="section section--alt" id="como-funciona">
     <div class="wrap">
@@ -207,8 +309,23 @@
     <div class="wrap cta__in">
       <img src="assets/logo.svg" alt="" width="96" height="72">
       <h2>Vamos colocar sua empresa para navegar?</h2>
-      <p>Conte sua ideia em uma mensagem. A resposta é rápida e o orçamento é grátis.</p>
-      <a class="btn btn--light" data-wa="Olá! Vim pelo site da MAST e quero tirar minha ideia do papel." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      <p>Preencha em 20 segundos e continue a conversa pelo WhatsApp. O orçamento é grátis.</p>
+      <form class="qf" id="qf">
+        <label>Seu nome<input name="nome" required autocomplete="name" placeholder="Ex.: Ana"></label>
+        <label>Seu negócio<input name="negocio" required placeholder="Ex.: Pizzaria, clínica, loja"></label>
+        <label>O que você precisa?
+          <select name="servico">
+            <option>Landing page</option>
+            <option>Site completo</option>
+            <option>PDV / frente de caixa</option>
+            <option>Sistema de gestão</option>
+            <option>Automação / bot de WhatsApp</option>
+            <option>Ainda não sei, quero ajuda</option>
+          </select>
+        </label>
+        <button class="btn btn--light" type="submit">Enviar pelo WhatsApp</button>
+      </form>
+      <a class="cta__alt" data-wa="Olá! Vim pelo site da MAST e quero tirar minha ideia do papel." href="https://wa.me/5500000000000" target="_blank" rel="noopener">ou chame direto no WhatsApp</a>
     </div>
   </section>
 </main>
