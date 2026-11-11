@@ -1,0 +1,8 @@
+services:
+  mast-site:
+    build: .
+    container_name: mast-site
+    restart: unless-stopped
+    ports:
+      - "8080:80"   # troque a porta se 8080 já estiver em uso pelos bots
+    mem_limit: 32m

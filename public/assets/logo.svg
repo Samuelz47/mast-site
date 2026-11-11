@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" role="img" aria-label="MAST">
+  <path d="M6 76 L74 6 L70 62 Z" fill="#9EBED2"/>
+  <path d="M74 6 Q96 34 92 62 L70 62 Z" fill="#F7EDE2" stroke="#E6D1BB" stroke-width="1"/>
+  <path d="M74 6 L72 1 L92 0 L86 6 Z" fill="#E28B7A"/>
+  <path d="M2 86 Q40 58 112 64 Q118 70 108 78 Q70 70 2 86 Z" fill="#2F4E68"/>
+</svg>
