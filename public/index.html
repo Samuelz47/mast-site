@@ -214,7 +214,52 @@
     <div class="wrap">
       <p class="eyebrow center">Planos</p>
       <h2 class="h2 center">Preço claro, sem surpresa no final</h2>
-      <p class="lead center mx">Valores de referência. Depois de entender sua necessidade, enviamos uma proposta fechada.</p>
+      <p class="lead center mx">Barbearia, salão ou marca de roupas? Você assina a plataforma Omni e paga só a mensalidade. Para os demais negócios, fazemos o projeto sob medida.</p>
+
+      <!-- Segmentos atendidos pela plataforma Omni (multi-tenant): cobrança só por mensalidade -->
+      <h3 class="plans__group">Para barbearias, salões e marcas de roupa</h3>
+      <div class="plans">
+        <article class="plan">
+          <h3>Barbearia</h3>
+          <p class="plan__desc">Plataforma Omni pronta para a sua barbearia.</p>
+          <p class="plan__price"><small>só mensalidade</small> R$ 100<span>/mês</span></p>
+          <ul>
+            <li>Sem taxa de implantação</li>
+            <li>Configurado com a sua marca</li>
+            <li>Hospedagem e atualizações inclusas</li>
+            <li>Suporte pelo WhatsApp</li>
+          </ul>
+          <a class="btn btn--ghost" data-wa="Olá! Tenho interesse no plano Barbearia (R$ 100/mês)." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </article>
+        <article class="plan">
+          <h3>Salão de beleza</h3>
+          <p class="plan__desc">Plataforma Omni pronta para o seu salão de beleza.</p>
+          <p class="plan__price"><small>só mensalidade</small> R$ 150<span>/mês</span></p>
+          <ul>
+            <li>Sem taxa de implantação</li>
+            <li>Configurado com a sua marca</li>
+            <li>Hospedagem e atualizações inclusas</li>
+            <li>Suporte pelo WhatsApp</li>
+          </ul>
+          <a class="btn btn--ghost" data-wa="Olá! Tenho interesse no plano Salão de beleza (R$ 150/mês)." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </article>
+        <article class="plan">
+          <h3>Marca de roupas</h3>
+          <p class="plan__desc">Site Omni Fashion pronto para a sua marca.</p>
+          <p class="plan__price"><small>só mensalidade</small> R$ 150<span>/mês</span></p>
+          <ul>
+            <li>Sem taxa de implantação</li>
+            <li>Configurado com a sua marca</li>
+            <li>Hospedagem e atualizações inclusas</li>
+            <li>Suporte pelo WhatsApp</li>
+          </ul>
+          <a class="btn btn--ghost" data-wa="Olá! Tenho interesse no plano Marca de roupas (R$ 150/mês)." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </article>
+      </div>
+
+      <!-- Demais negócios: projeto próprio, valores de referência -->
+      <h3 class="plans__group">Para os demais negócios</h3>
+      <p class="plans__sub">Valores de referência. Depois de entender sua necessidade, enviamos uma proposta fechada.</p>
       <div class="plans">
         <article class="plan">
           <h3>Landing page</h3>
@@ -254,7 +299,7 @@
           <a class="btn btn--ghost" data-wa="Olá! Quero conversar sobre um sistema sob medida." href="https://wa.me/5500000000000" target="_blank" rel="noopener">Pedir proposta</a>
         </article>
       </div>
-      <p class="plans__note">Parcelamos no cartão. Planos de manutenção e suporte mensais disponíveis.</p>
+      <p class="plans__note">Projetos sob medida podem ser parcelados no cartão. Planos de manutenção e suporte mensais disponíveis.</p>
     </div>
   </section>
 
@@ -297,7 +342,7 @@
       <p class="eyebrow center">Dúvidas frequentes</p>
       <h2 class="h2 center">Perguntas que a gente sempre recebe</h2>
       <details><summary>Minha empresa é pequena. Isso é para mim?</summary><p>Sim! Nosso foco é justamente o pequeno e médio empreendedor. Começamos pelo essencial e o sistema cresce junto com o seu negócio.</p></details>
-      <details><summary>Quanto custa?</summary><p>Depende do que você precisa. Um site simples sai bem mais em conta do que um sistema completo. Chame no WhatsApp e mandamos um orçamento sem compromisso.</p></details>
+      <details><summary>Quanto custa?</summary><p>Para barbearias, salões e marcas de roupa é só a mensalidade: R$ 100/mês (barbearia) ou R$ 150/mês (salão ou marca de roupas), sem taxa de implantação. Para os demais negócios, depende do que você precisa: um site simples sai bem mais em conta do que um sistema completo. Chame no WhatsApp e mandamos um orçamento sem compromisso.</p></details>
       <details><summary>Quanto tempo leva?</summary><p>Sites e landing pages costumam ficar prontos em poucos dias. Sistemas e automações variam conforme o escopo — o prazo vem definido na proposta.</p></details>
       <details><summary>Vocês dão suporte depois de entregar?</summary><p>Sim. Oferecemos planos de suporte e hospedagem para manter tudo funcionando, atualizado e seguro.</p></details>
       <details><summary>Já tenho um sistema. Vocês conseguem integrar ou melhorar?</summary><p>Na maioria dos casos, sim. Analisamos o que você já usa e propomos o melhor caminho: integrar, melhorar ou substituir.</p></details>
@@ -315,6 +360,9 @@
         <label>Seu negócio<input name="negocio" required placeholder="Ex.: Pizzaria, clínica, loja"></label>
         <label>O que você precisa?
           <select name="servico">
+            <option>Plataforma para barbearia (R$ 100/mês)</option>
+            <option>Plataforma para salão (R$ 150/mês)</option>
+            <option>Site para marca de roupas (R$ 150/mês)</option>
             <option>Landing page</option>
             <option>Site completo</option>
             <option>PDV / frente de caixa</option>

@@ -151,6 +151,11 @@ p{margin:0 0 1em}
 .plan li{padding-left:24px;position:relative}
 .plan li::before{content:"";position:absolute;left:2px;top:.45em;width:10px;height:6px;border-left:2px solid var(--meadow);border-bottom:2px solid var(--meadow);transform:rotate(-45deg)}
 .plan .btn{margin-top:auto;justify-content:center}
+.plans__group{font-size:1.25rem;text-align:center;margin-top:48px}
+.plans__group + .plans{margin-top:24px}
+.plans__sub{text-align:center;color:var(--muted);font-size:.95rem;margin-top:8px}
+.plans__sub + .plans{margin-top:24px}
+.plan__price span{font:500 1rem var(--sans);color:var(--muted);margin-left:2px}
 .plans__note{text-align:center;color:var(--muted);font-size:.9rem;margin-top:24px}
 
 /* formulário rápido */
